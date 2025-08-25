@@ -10,11 +10,11 @@ namespace ConsoleAppAdoNetDemo
     {
         static void Main(string[] args)
         {
-            //SqlDataReaderDemo(); // Call the method to demonstrate SqlDataReader functionality
-            //InsertSqlCommandDemo(); // Call the method to demonstrate inserting data using SqlDataReader
-            //DataSetDataApapterDemo(); // Call the method to demonstrate DataSet and DataAdapter functionality
-            //InsertSPDataSetDataAdapterDemo(); // Call the method to demonstrate inserting data using DataSet and DataAdapter
-            //UpdateEmployeeDemo(); // Call the method to update employee data
+            SqlDataReaderDemo(); // Call the method to demonstrate SqlDataReader functionality
+            InsertSqlCommandDemo(); // Call the method to demonstrate inserting data using SqlDataReader
+            DataSetDataApapterDemo(); // Call the method to demonstrate DataSet and DataAdapter functionality
+            InsertSPDataSetDataAdapterDemo(); // Call the method to demonstrate inserting data using DataSet and DataAdapter
+            UpdateEmployeeDemo(); // Call the method to update employee data
         }
         public static void SqlDataReaderDemo()
         {
